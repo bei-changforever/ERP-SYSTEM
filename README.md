@@ -15,3 +15,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### demo
+![image](https://github.com/bei-changforever/ERP-SYSTEM/blob/main/public/demo-picture/erp-demo.jpg)
