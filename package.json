@@ -1,0 +1,48 @@
+{
+  "name": "project_dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "万年青前端项目Demo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-test": "vite build --mode test",
+    "build-tsc": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "@element-plus/icons-vue": "^2.1.0",
+    "animate.css": "^4.1.1",
+    "ant-design-vue": "^4.0.0",
+    "axios": "^1.4.0",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.3.9",
+    "fast-glob": "^3.3.1",
+    "jquery": "^3.7.0",
+    "lodash-es": "^4.17.21",
+    "mitt": "^3.0.1",
+    "pinia": "^2.1.4",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "qs": "^6.11.2",
+    "vue": "^3.3.4",
+    "vue-countup-v3": "^1.3.0",
+    "vue-router": "^4.2.4",
+    "vue-types": "^5.1.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
+    "@types/jquery": "^3.5.16",
+    "@types/node": "^18.17.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/tsconfig": "^0.4.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "typescript": "~5.1.6",
+    "vite": "^4.4.6",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue-tsc": "^1.8.6"
+  }
+}

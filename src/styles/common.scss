@@ -1,0 +1,62 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ellipsis {
+  overflow: hidden;
+  /*文本不会换行*/
+  white-space: nowrap;
+  /*当文本溢出包含元素时，以省略号表示超出的文本*/
+  text-overflow: ellipsis;
+}
+
+// 带搜索栏的表格列表页面共用样式
+.action-table-card {
+  height: calc(100vh - var(--theme-header-height) - 32px) !important;
+
+  .el-card__body {
+    height: 100%;
+    box-sizing: border-box;
+
+    .toolbar-box {
+      display: flex;
+      align-items: end;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .toolbar-content {
+        position: relative;
+        margin-bottom: 16px;
+
+        .el-form--inline.el-form--label-top {
+          align-items: end;
+        }
+
+        .el-form {
+          .el-form-item {
+            margin-bottom: 0;
+            .el-form-item__label {
+              padding-right: 0;
+              color: var(--theme-text-color-label);
+            }
+          }
+        }
+      }
+      .btn-group {
+        margin-bottom: 16px;
+        white-space: nowrap;
+      }
+
+      .btn-query {
+        margin-left: -8px;
+      }
+    }
+  }
+}
+
+.action-tabs-card {
+  .el-tabs {
+    .el-tabs__content {
+      height: calc(100vh - var(--theme-header-height) - 118px);
+    }
+  }
+}
